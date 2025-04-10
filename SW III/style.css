@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10vh;
+    border-bottom: 2px solid gray;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background-color: black;
+}
+
+.header-content{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-infos{
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.item-header{
+    color: white;
+    cursor: pointer;
+    font-size: 14pt;
+}
+
+.item-header:hover{
+    transition: 0.5s;
+    border-bottom: 1px solid gray;
+}
+
+.box-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.btn{
+    height: 70%;
+    width: 100px;
+    margin-left: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 12pt;
+    cursor: pointer;
+}
+
+.signup{
+    background-color: rgba(231, 231, 231, 0.281);
+}
+
+main{
+    margin-top: 10vh;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.main-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 50px;
+}
+
+.img-conteiner{
+    width: 100%;
+}
+
+.capa-filme{
+    width: 100%;
+}
+
+.sinopse-conteiner{
+    margin: 40px 0;
+    width: 100%;
+}
+
+.title-conteiner{
+    margin-bottom: 20px;
+}
+
+.info-text{
+    text-align: justify;
+    opacity: 0.8;
+}
+
+.elenco-conteiner{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.cast-conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.name-actor{
+    font-size: 14pt;
+    font-weight: bold;
+    margin: 3px 0;
+}
+
+.name-character{
+    font-size: 12pt;
+    opacity: 0.6;
+}
+
+.galeria-conteiner{
+    width: 100%;        
+}
+
+.galery-conteiner{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 40px;
+}
