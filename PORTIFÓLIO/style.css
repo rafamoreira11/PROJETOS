@@ -1,0 +1,877 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 80%;
+    height: 100px;
+    background-color: #1B1B1B;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.header-content{
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 95%;
+    height: 100%;
+}
+
+.redes-sociais{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.insta{
+    width: 18px;
+    height: 17px;
+}
+
+.git{
+    width: 20px;
+    height: 19px;
+}
+
+.header-menu{
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 70%;
+    display: flex;
+}
+
+.menu-option{
+    font-size: 14pt;
+    color: #9C9C9C;
+    cursor: pointer;
+}
+
+.menu-option:hover{
+    transition : 0.8s; 
+    color: white;
+}
+
+.icon-app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+main{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.home-menu{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+}
+
+.perfil{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.perfil-info{
+    margin-top: 160px;
+    flex-direction: column;
+    display: flex;
+    height: 130%;
+    justify-content: center;
+}
+
+.imagem-perfil{
+    margin-top: 30%;
+
+}
+
+.nome-text{
+    font-size: 36pt;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.descricao-text{
+    color: #9C9C9C;
+    margin-bottom: 5%;
+}
+
+.btn-contato{
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: rgb(66, 66, 255);
+    font-size: 16pt;
+    height: 60px;
+    width: 300px;
+    border: none;
+}
+
+.btn-contato:hover{
+    transition: 0.5s;
+    background-color: white;
+    color: rgb(66, 66, 255);
+}
+
+.titulo{
+    margin-top: 8%;
+}
+
+.titulo-text{
+    color: rgba(255, 255, 255, 0.884);
+}
+
+.img-ferramenta{
+    cursor: pointer;
+    margin-top: 2%;
+    width: 60px;
+    margin-right: 2%;
+}
+
+.ferramentas-icons{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.about-menu{
+    margin: 10% 0px;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.menu-title{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+.traco{
+    border: 1px solid rgba(141, 141, 141, 0.664);
+    width: 73%;
+}
+
+.descricao-about{
+    display: flex;
+    width: 100%;
+    margin-top: 2%;
+}
+
+.paragrafo{
+    display: flex;
+}
+
+.letra-especial{
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 10px;
+    padding: 10px 6px;
+    font-size: 18pt;
+    background-color: #505050;
+    color: white;
+}
+
+.first{
+    width: 80%;
+    text-align: justify;
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.about-text{
+    margin: 20px 0px;
+    width: 85%;
+    text-align: justify;
+    font-size: 14pt;
+    color: rgba(255, 255, 255, 0.856);
+}
+
+.descricao-conteiner{
+    width: 70%;
+}
+
+.menu-text{
+    font-size: 38pt;
+    color: white;
+}
+
+.dot{
+    color: rgb(66, 66, 255)    ;
+}
+
+.title-linguagens{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.code{
+    margin-right: 10px;
+    background-color: rgb(66, 142, 255);
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.linguagem-text{
+    color: white;
+}
+
+.nome-linguagem{
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: #505050a1;
+    color: white;
+}
+
+.descricao-linguagens{
+    width: 30%;
+}
+
+.box-linguagens{
+    display: flex;
+}
+
+.second{
+    margin-top: 70px;
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.traco-projetos{
+    border: 1px solid rgba(141, 141, 141, 0.664);
+    width: 78%;
+}
+
+.projetos-conteiner{
+    margin-top: 2%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,55.5%);
+}
+
+.box-projetos{
+    cursor: pointer;
+    background-color: #505050;
+    width: 80%;
+    height: 280px;
+    border-radius: 10px;
+    margin-bottom: 30%;
+}
+
+.img-conteiner{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.img-projeto{
+    width: 85%;
+}
+
+.info-projeto{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 2% 0;
+}
+
+.nome-projeto{
+    color: white;
+}
+
+.traco-info{
+    border: 1px solid #50505065;
+    width: 46%;
+    margin: 0 2%;
+}
+
+.git-link{
+    width: 30px;
+}
+
+.projeto-link{
+    width: 25px;
+}
+
+.links{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ferramentas-projeto{
+    font-weight: bold;
+    color: rgb(123, 66, 255);
+    margin-bottom: 2%;
+}
+
+.desc-projeto{
+    width: 100%;
+}
+
+.desc-projeto-text{
+    text-align: justify;
+    color: #9C9C9C;
+}
+
+footer{
+    flex-direction: column;
+    margin-top: 20%;
+    background-color: rgb(66, 66, 255);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pergunta-final{
+    text-decoration: underline;
+    font-weight: 100;
+    color: rgb(230, 230, 230);
+    font-size: 36pt;
+}
+
+.entrar-contato{
+    margin: 10px 0;
+    color: white;
+    font-size: 64pt;
+}
+
+.contact-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-link{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 300px;
+    height: 60px;
+    background-color: rgba(26, 26, 46, 0.788);
+}
+
+.btn-link:hover{
+    background-color: rgb(66, 66, 255);
+}
+
+.click-aqui{
+    margin-left: 5%;
+    font-size: 14pt;
+    color: white;
+}
+
+.img-contato{
+    width: 20px;
+}
+
+@media screen and (max-width: 850px){
+
+    .perfil{
+        flex-direction: column-reverse;
+    }
+
+    .perfil-foto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .imagem-perfil{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .perfil-info{
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+    
+
+    .descricao-text{
+        text-align: center;
+    }
+
+    .descricao-about{
+        margin-top: 10%;
+        flex-direction: column;
+    }
+
+    .traco{
+        width: 55%;
+    }
+
+    .descricao-conteiner{
+        width: 100%;
+    }
+
+
+    .first{
+        width: 100%;
+    }
+
+    .about-text{
+        width: 100%;
+    }
+
+    .descricao-linguagens{
+        margin-top: 10%;
+    }
+
+    .contact-links{
+        flex-direction: column;
+    }
+
+    .btn-link{
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .box-projetos{
+        width: 80%;
+        height: 200px;
+        margin:2% 0 20% 0;
+    }
+
+    .info-projeto{
+        justify-content: space-between;
+    }
+
+    .traco-info{
+        width: 20%;
+    }
+
+    .git-link{
+        width: 20px;
+    }
+    
+    .projeto-link{
+        width: 15px;
+    }
+
+    .links{
+        width: 15%;
+    }
+
+    .desc-projeto-text{
+        text-align: start;
+    }
+
+    .traco-projetos{
+        width: 65%;
+    }
+}
+
+@media screen and (max-width: 750px){
+
+    .perfil{
+        flex-direction: column-reverse;
+    }
+
+    .perfil-foto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .imagem-perfil{
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .perfil-info{
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .descricao-text{
+        text-align: center;
+    }
+
+    .descricao-about{
+        margin-top: 10%;
+        flex-direction: column;
+    }
+
+    .traco{
+        width: 50%;
+    }
+
+    .descricao-conteiner{
+        width: 100%;
+    }
+
+    .first{
+        width: 100%;
+    }
+
+    .about-text{
+        width: 100%;
+    }
+
+    .descricao-linguagens{
+        margin-top: 10%;
+    }
+
+    .projetos-conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-links{
+        flex-direction: column;
+    }
+
+    .btn-link{
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .box-projetos{
+        width: 45%;
+        height: 200px;
+        margin: 2% 0 20% 0;
+    }
+
+    .info-projeto{
+        justify-content: space-between;
+    }
+
+    .traco-info{
+        width: 19%;
+    }
+
+    .pergunta-final{
+        font-size: 28pt ;
+    }
+
+    .entrar-contato{
+        font-size: 48pt;
+    }
+
+    .git-link{
+        width: 20px;
+    }
+    
+    .projeto-link{
+        width: 15px;
+    }
+
+    .links{
+        width: 15%;
+    }
+
+    .desc-projeto-text{
+        text-align: start;
+    }
+}
+
+@media screen and (max-width: 430px){
+    .header-menu{
+        width: 80%;
+    }
+    
+    .menu-option{
+        font-size: 14pt;
+    }
+
+    .header-content{
+        justify-content: center;
+    }
+
+    .redes-sociais{
+        width: 30px;
+        flex-direction: column;
+        height: 70%;
+        justify-content: space-between;
+    }
+
+    .perfil{
+        flex-direction: column-reverse;
+    }
+
+    .perfil-foto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .imagem-perfil{
+        height: 250px;
+        width: 300px;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .perfil-info{
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .nome-text{
+        font-size: 20pt;
+    }
+    
+
+    .descricao-text{
+        font-size: 12pt;
+        text-align: center;
+    }
+
+    .menu-text{
+        font-size: 20pt;
+    }
+
+    .traco{
+        width: 50%;
+    }
+
+    .descricao-about{
+        margin-top: 10%;
+        flex-direction: column;
+    }
+
+    .descricao-conteiner{
+        width: 100%;
+    }
+
+    .letra-especial{
+        height: 60px;
+    }
+
+    .first{
+        width: 100%;
+    }
+
+    .about-text{
+        width: 100%;
+    }
+
+    .descricao-linguagens{
+        margin-top: 10%;
+    }
+
+    .pergunta-final{
+        font-size: 18pt ;
+    }
+
+    .entrar-contato{
+        font-size: 28pt;
+    }
+
+    .contact-links{
+        flex-direction: column;
+    }
+
+    .btn-link{
+        margin-top: 10px;
+        width: 200px;
+    }
+
+    .projetos-conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-projetos{
+        width: 100%;
+        height: 200px;
+        margin:2% 0 70% 0;
+    }
+
+    .info-projeto{
+        justify-content: space-between;
+    }
+
+    .traco-info{
+        width: 25%;
+    }
+
+    .git-link{
+        width: 20px;
+    }
+    
+    .projeto-link{
+        width: 15px;
+    }
+
+    .links{
+        width: 15%;
+    }
+
+    .desc-projeto-text{
+        text-align: start;
+    }
+
+    .traco-projetos{
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 360px){
+
+    .menu-option{
+        font-size: 13pt;
+    }
+
+
+    .header-menu{
+        width: 80%;
+    }
+    
+
+    .header-content{
+        justify-content: center;
+    }
+
+    .redes-sociais{
+        width: 30px;
+        flex-direction: column;
+        height: 70%;
+        justify-content: space-between;
+    }
+
+    .perfil{
+        flex-direction: column-reverse;
+    }
+
+    .perfil-foto{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .imagem-perfil{
+        height: 250px;
+        width: 300px;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    .perfil-info{
+        width: 100%;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    .nome-text{
+        font-size: 18pt;
+    }
+    
+
+    .descricao-text{
+        font-size: 10pt;
+        text-align: center;
+    }
+
+    .traco{
+        width: 48%;
+    }    
+
+    .pergunta-final{
+        font-size: 18pt ;
+    }
+
+    .entrar-contato{
+        font-size: 28pt;
+    }
+
+    .contact-links{
+        flex-direction: column;
+    }
+
+    .btn-link{
+        margin-top: 10px;
+        width: 200px;
+    }
+
+    .projetos-conteiner{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box-projetos{
+        width: 100%;
+        height: 200px;
+        margin:2% 0 70% 0;
+    }
+
+    .info-projeto{
+        justify-content: space-between;
+    }
+
+    .traco-info{
+        width: 23%;
+    }
+
+    .git-link{
+        width: 20px;
+    }
+    
+    .projeto-link{
+        width: 15px;
+    }
+
+    .links{
+        width: 15%;
+    }
+
+    .desc-projeto-text{
+        text-align: start;
+    }
+
+    .traco-projetos{
+        width: 58%;
+    }
+}
