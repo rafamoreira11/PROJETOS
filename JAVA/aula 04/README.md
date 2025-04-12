@@ -1,18 +1,25 @@
-## Getting Started
+# Vetores em Java - Acesso a Elementos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um exemplo básico de como declarar e acessar elementos de um vetor (array) em Java.
 
-## Folder Structure
+## 🧾 Descrição
 
-The workspace contains two folders by default, where:
+O programa declara um vetor de `String` chamado `frutas`, contendo quatro elementos. Em seguida, imprime no console o terceiro item do vetor (índice 2), que é **"melância"**.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 💡 Objetivo
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Este projeto serve como introdução ao uso de vetores em Java. Ele mostra como:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+- Declarar e inicializar um array;
+- Acessar um elemento específico usando seu índice.
 
-## Dependency Management
+## 📌 Código
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+```java
+public class Vetores {
+    public static void main(String[] args) {
+        String[] frutas = {"maçã", "banana", "melância", "uva"};
+        
+        System.out.println(frutas[2]); // Saída: melância
+    }
+}
