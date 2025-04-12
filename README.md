@@ -1,6 +1,6 @@
 # 🚀 Meu Repositório de Projetos
 
-Bem-vindo(a) ao meu repositório de projetos! Aqui você encontrará uma coleção de pequenos (e grandes!) projetos que desenvolvi enquanto aprendo, pratico e exploro o mundo da programação. Seja em Java, Python, ou outras linguagens, cada pasta aqui conta uma história do meu aprendizado. 📘💻
+Bem-vindo(a) ao meu repositório de projetos! Aqui você encontrará uma coleção de pequenos (e grandes!) projetos que desenvolvi enquanto aprendo, pratico e exploro o mundo da programação. Seja em `Java`, `JavaScript`, `HTML/CSS` , ou outras linguagens, cada pasta aqui conta uma história do meu aprendizado. 📘💻
 
 ---
 
