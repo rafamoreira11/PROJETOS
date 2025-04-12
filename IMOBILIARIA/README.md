@@ -1,4 +1,4 @@
-# 🚀 Projeto Imobiliária 2025
+# 🚀 Projeto Imobiliária - Rafael Moreira Lima
 
 Bem-vindo ao **Projeto Imobiliária 2025**, uma aplicação simples e dinâmica construída utilizando **HTML**, **CSS** e **JavaScript**. Este projeto visa proporcionar aos usuários uma **experiência imersiva e interativa** ao visualizar imóveis e suas informações, com um design responsivo e moderno.
 
