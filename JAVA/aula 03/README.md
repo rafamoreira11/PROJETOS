@@ -6,7 +6,7 @@ Este é um exemplo simples de código em Java, ideal para quem está começando 
 
 O programa declara uma variável booleana e, com base em seu valor (`true` ou `false`), exibe uma mensagem diferente no console. Isso é fundamental para que o programa possa reagir de formas distintas dependendo de certas condições.
 
-### Código:
+## 🧾 Código
 
 ```java
 public class condicionais {
