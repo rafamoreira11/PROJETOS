@@ -1,4 +1,4 @@
-public class calculadora {
+public class operadores {
     public static void main(String[] args) {
         int n1 = 20;
         int n2 = 10;
