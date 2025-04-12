@@ -1,4 +1,4 @@
-# Projeto Hello World em Java
+# Hello World em Java
 
 Este é um projeto simples que imprime "Hello, World!" no console, escrito em Java.  
 
