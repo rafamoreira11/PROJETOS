@@ -26,7 +26,7 @@ Os projetos estão organizados por pastas, cada uma contendo:
 
 ```bash
 📁 projetos/
-├── home-imobiliaria/
+├── imobiliaria/
 ├── java/
 ├── portfólio/
 ├── SW III/
