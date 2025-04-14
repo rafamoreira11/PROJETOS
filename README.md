@@ -26,6 +26,7 @@ Os projetos estão organizados por pastas, cada uma contendo:
 
 ```bash
 📁 projetos/
+├── encurtador/
 ├── imobiliaria/
 ├── java/
 ├── portfólio/

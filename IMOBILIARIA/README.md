@@ -26,10 +26,3 @@ Você pode conferir o projeto ao vivo clicando no link abaixo:
 
 [**Acesse o site de Imobiliária**](https://reactimoveis-2025.netlify.app)
 
-## 🛠️ Como Rodar Localmente
-
-Se você deseja rodar o projeto localmente, siga os passos abaixo:
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/seu-usuario/reactimoveis-2025.git
