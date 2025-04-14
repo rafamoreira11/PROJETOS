@@ -10,7 +10,7 @@ Essa aplicação foca na **usabilidade, rapidez e simplicidade**, oferecendo uma
 
 - **HTML5**: Estrutura básica e semântica da interface.
 - **CSS3**: Estilização moderna com foco em responsividade e visual limpo.
-- **JavaScript (ES6+)**: Lógica de encurtamento, geração de identificadores únicos, cópia para a área de transferência e armazenamento local com `localStorage`.
+- **JavaScript (ES6+)**: Lógica de encurtamento, geração de identificadores únicos e armazenamento local com `localStorage`.
 
 ## 🌟 Funcionalidades
 
