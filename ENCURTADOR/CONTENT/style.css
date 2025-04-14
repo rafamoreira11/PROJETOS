@@ -99,3 +99,29 @@ main{
 .user:focus::placeholder{
     color: transparent;
 }
+
+.section-links{ 
+    width: 80%;
+    height: 90%;
+    display: flex; 
+    flex-direction: column;
+}
+
+.header-links{
+    width: 100%;
+    height: 30%;
+}
+
+.links-content{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-link{
+    margin-top: 20px;
+    color: #4D505C;
+}
