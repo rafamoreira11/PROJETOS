@@ -18,5 +18,3 @@ Essa aplicação foca na **usabilidade, rapidez e simplicidade**, oferecendo uma
 - **📋 Copiar com um Clique**: Copie o link encurtado facilmente para compartilhar onde quiser.
 - **💾 Armazenamento Local**: Os links são salvos no `localStorage`, permitindo que o histórico fique disponível mesmo ao recarregar a página.
 - **📱 Design Responsivo**: Totalmente adaptado para uso em smartphones, tablets e desktops.
-- **🎯 Redirecionamento (simulado)**: Os links encurtados simulam redirecionamento para a URL original.
-
