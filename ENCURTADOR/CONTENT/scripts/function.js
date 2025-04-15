@@ -3,7 +3,7 @@ export default function capturarLink(){
         let linkValue = document.getElementById("link-encurtado")
         
         if(link == ""){
-            alert("Por favor, insira um link.")
+            alert("Por favor, insira um link válido!")
         }
         else{
             let linkEncurtado = "brev.ly/" + Math.random().toString(36).substring(2, 8)
