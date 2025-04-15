@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="./scripts/main.js"></script>
+    <script src="./scripts/main.js" type="module"></script>
     <title>ENCURTADOR DE URL</title>
 </head>
 <body>
@@ -17,28 +17,30 @@
                 <h2 class="title">Novo link</h2>
                 <div class="link-before">
                     <label for="#" class="label-link">LINK ORIGINAL</label>
-                    <input type="text" class="input-link user" placeholder="www.exemplo.com.br" required>
+                    <input type="text" class="input-link user" id="input-link" placeholder="www.exemplo.com.br" required>
                 </div>
                 <div class="link-after">
                     <label for="#" class="label-link">LINK ENCURTADO</label>
-                    <input type="text" placeholder="brev.ly/" disabled class="input-link">
+                    <div class="input-link">
+                        <p class="link-encurtado" id="link-encurtado">brev.ly/</p>
+                    </div>
                 </div>
-                <button type="submit" class="btn-submit">Salvar link</button>
+                <button type="submit" class="btn-submit" id="btn">Salvar link</button>
             </div>
             <div class="links-conteiner">
                 <div class="section-links">
                     <header class="header-links">
                         <h2 class="title-link">Meus links</h2>
                     </header>
-                    <main class="links-content">
+                    <main class="links-content" id="links-content">
                         <div class="link-image">
                             <img src="./imgs/link-icon.png" alt="">
                         </div>
                         <div class="links-box">
                             <p class="text-link">AINDA NÃO EXISTEM LINKS CADASTRADOS</p>
                         </div>
-                    </div>
-                </main>
+                    </main>
+                </div>
             </div>
         </div>
     </main>

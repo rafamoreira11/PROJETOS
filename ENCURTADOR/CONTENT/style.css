@@ -68,6 +68,10 @@ main{
 }
 
 .input-link{
+    font-size: 12pt;
+    color: #4D505C;
+    display: flex;
+    align-items: center;    
     height: 48px;
     border: 1px solid #D0D3DB;
     padding: 0 16px;
@@ -95,6 +99,7 @@ main{
     width: 580px;
     height: 234px;
     background-color: #F9F9FB;
+    
 }
 .user:focus::placeholder{
     color: transparent;
@@ -115,7 +120,7 @@ main{
 .links-content{
     width: 100%;
     height: 70%;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
