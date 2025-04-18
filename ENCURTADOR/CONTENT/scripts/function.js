@@ -10,5 +10,35 @@ export default function capturarLink(){
             linkValue.innerText = linkEncurtado
             let linkBox = document.getElementById("links-content")
             linkBox.style.display = "none"
+
+            // Adiciona o link encurtado à lista de links
+            let mylinksLeft = document.getElementById("mylinks-left")
+            
+            const addNovoLink = document.createElement("p")
+            addNovoLink.className = "new-mylinks"
+            addNovoLink.innerText = linkEncurtado
+            mylinksLeft.appendChild(addNovoLink)
+
+            const addOldLink = document.createElement("p")
+            addOldLink.className = "old-mylinks"
+            addOldLink.innerText = link
+            mylinksLeft.appendChild(addOldLink)
+            
+            document.getElementById("input-link").value = ""
+        
+            // Cria botão extras
+            
+            
+            let buttonsLinks = document.getElementById("buttons-links")
+
+            const btnCopy = document.createElement("img")
+            btnCopy.src = "../imgs/copy.png"
+            btnCopy.classList.add = "button"
+            buttonsLinks.appendChild(btnCopy)
+        
+            const btnDelete = document.createElement("img")
+            btnDelete.src = "../imgs/trash.png"
+            btnDelete.classList.add = "button"
+            buttonsLinks.appendChild(btnDelete)
         }
 }
